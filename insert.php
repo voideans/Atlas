@@ -1,4 +1,8 @@
-<?php 
+<!-- connection and form filling -->
+<?php> include "fetch.php";<?>
+
+<?php  
+// include "fetch.php";
 $user_name = $_POST['user_name'];
 $country1 = $_POST['country1'];
 

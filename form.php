@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,14 +9,13 @@
     </head>
     <body>
     <p>
-        <h1>Hello there</h1>
-        <h2>Select the country you want a list of cities for</h2>
-        The following list comprises of the "Best 10 Countries 2021" according to 
-        <a href ="https://www.usnews.com/news/best-countries/overall-rankings"><i>usnews.com</i></a>
+        <h1 align="center">Hello there</h1>
+        <h2 align="center">Select the country you want a list of cities for<br>The following list comprises of the "Best 10 Countries 2021" according to
+        <a href ="https://www.usnews.com/news/best-countries/overall-rankings"><i>usnews.com</i></a></h2> 
     </p>
 
     <form action="insert.php" method="POST">
-        <table>
+        <table align="center">
             <tr>
                 <td>Name:</td>
                 <td>
@@ -65,3 +65,4 @@
     </body>
 
 </html>
+
